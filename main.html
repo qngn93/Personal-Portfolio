@@ -1,4 +1,3 @@
-<!--Personal Portfolio-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Quoc Nguyen's Personal Webpage</title>
+    <title>Quoc Nguyen</title>
     <link rel= "stylesheet" href= "style.css">
 
     <!-- Bootstrap -->
@@ -24,52 +23,71 @@
 <body>
     
     <!-- Navigation Bar -->
-    <div>
-        <ul class = "nav nav-pills">
-            <li class = "pull-right">
-                <a href = "#contacts">Contact</a> 
-            </li>
-            <li class = "pull-right">
-                <a href = "#portfolio">Portfolio</a>
-            </li>
-            <li class="pull-right">
-                <a href = "#about">About</a>
-            </li>
-            <li>
-                <a href = "#home">Home</a>
-            </li>
-        </ul>
-    </div>
+    <nav class = "navbar navbar-default navbar-fixed-top topnav">
+        <div class = "container">
+            <ul class = "navbar navbar-default navbar-fixed-top topnav">
+                <li class = "pull-right">
+                    <a href = "#contacts">Contact</a> 
+                </li>
+                <li class = "pull-right">
+                    <a href = "#portfolio">Portfolio</a>
+                </li>
+                <li class="pull-right">
+                    <a href = "#about">About</a>
+                </li>
+                <li>
+                    <a href = "#home">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     
     
     <!--Intro Page-->
     <a name = "home"></a>
          <div class = "intro-page">
-             <div class = "container">
-                 <div class= "row">
-                     <div class = "col-xs-12">
-                         <div class = "intro-msg">
-                            <h1>Hello World!<br></h1>
-                             <h1 class = "me">I'm Quoc.</h1>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-        </div>
+                <div >
+                    <h1 class = "intro-msg">Hello World!<br> I'm Quoc. </h1>
+                </div>
+             <!--<img class="img-circle img-responsive" src="http://i.imgur.com/OdzbnOO.jpg" alt="" height = "250" width = "300">-->
+         </div>
     
     
     <!--About Section-->
     <a name = "about"></a>
         <div class = "about-page">
-            <div class = "container">
+            <div> 
+                <h1 class = "about-msg text-center">ABOUT</h1>
+            </div>
+            <hr/>
+            <div class = "container-fluid">
                 <div class = "row">
-                    <div class = "col-lg-4 col-sm-6">
-                        <h2> About <br></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem mi, aliquam dignissim condimentum nec, ultrices sit amet purus. Cras vitae diam urna. Proin id sapien in turpis ultricies auctor. Nulla in scelerisque metus. Pellentesque pulvinar sagittis ornare. Quisque eu ultrices urna.</p>
+                    <div class = "col-sm-4 text-center">
+                        <h2><img src = "http://www.userlogos.org/files/logos/dk00111/uh.png" alt= "" height = "100" width= "180"></h2>
+                        <h3>Education</h3>
+                        <p>Univeristy of Houston Senior<br>
+                        Computer Science Major / Math Minor<br>
+                        <br>
+                        </p>
                     </div>
-                    <div class = "col-lg-5 col-lg-offset-1 col-sm-5 collapse navbar-collapse">
-                        <img class="img-circle img-responsive" src="http://i.imgur.com/OdzbnOO.jpg" alt="" height = "250" width = "300">
+                    <div class = "col-sm-4 text-center">
+                        <h2><img src = "https://www.svgimages.com/svg-image/s5/code-school-logo-256x256.png" alt= "" height = "100" width= "130"></h2>
+                        <h3>Skills</h3>
+                        <p>C++, Java <br>
+                        Swift, Objective-C <br>
+                        HTML5/CSS3<br>
+                        Javacript<br>
+                        </p>
                     </div>
+                    <div class = "col-sm-4 text-center">
+                        <h2><img src = "http://seeklogo.com/images/B/basketball-logo-0F93EBDD25-seeklogo.com.png" alt= "" height = "100" width= "100"></h2>
+                        <h3>Interests</h3>
+                        <p>NBA Fan<br>
+                        The great outdoors<br>
+                        Building fun projects<br>
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -78,10 +96,30 @@
     <!--Portfolio-->
     <a name = "portfolio"></a>
         <div class = "portfolio-page">
-            <div class = "container">
+            <div> 
+                <h1 class = "about-msg text-center">PORTFOLIO</h1>
+            </div>
+            <hr/>
+            <div class = "container-fluid">
                 <div class = "row">
-                    <div class = "col-lg-4 col-sm-6">
-                        <h2> Portfolio <br></h2>
+                    <div class = "col-sm-6 text-center">
+                        <img class = "portfolio-pic" src = "http://resize.indiatvnews.com/en/centered/oldbucket/750_533/mainnational/United-Airlines16250.jpg" alt= "" height = "200" width= "350">
+                        <h2>United Airlines Software Engineer</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem mi, aliquam dignissim condimentum nec, ultrices sit amet purus. Cras vitae diam urna. Proin id sapien in turpis ultricies auctor. Nulla in scelerisque metus. Pellentesque pulvinar sagittis ornare. Quisque eu ultrices urna.</p>
+                    </div>
+                    <div class = "col-sm-6 text-center portfolio-pic">
+                        <img class = "portfolio-pic" src = "https://d2ujflorbtfzji.cloudfront.net/package-screenshot/2ea6fabc-6433-42e1-b453-e932f8962606_scaled.jpg" alt= "" height = "200" width= "350">
+                        <h2>Phantom Omni Haptics </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem mi, aliquam dignissim condimentum nec, ultrices sit amet purus. Cras vitae diam urna. Proin id sapien in turpis ultricies auctor. Nulla in scelerisque metus. Pellentesque pulvinar sagittis ornare. Quisque eu ultrices urna.</p>
+                    </div>
+                    <div class = "col-sm-6 text-center">
+                        <img class = "portfolio-pic" src = "http://blender.net.nz/wp-content/uploads/2014/11/SLIDE-PET-DOOR-HOW-IT-WORKS.jpg" alt= "" height = "200" width= "350">
+                        <h2>IOT Pet Dog Door</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem mi, aliquam dignissim condimentum nec, ultrices sit amet purus. Cras vitae diam urna. Proin id sapien in turpis ultricies auctor. Nulla in scelerisque metus. Pellentesque pulvinar sagittis ornare. Quisque eu ultrices urna.</p>
+                    </div>
+                    <div class = "col-sm-6 text-center">
+                        <img src = "https://media-cdn.tripadvisor.com/media/photo-s/0a/0f/2a/bd/tlv-art-gallery.jpg" alt= "" height = "200" width= "250">
+                        <h2>TLV Advanced Software</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem mi, aliquam dignissim condimentum nec, ultrices sit amet purus. Cras vitae diam urna. Proin id sapien in turpis ultricies auctor. Nulla in scelerisque metus. Pellentesque pulvinar sagittis ornare. Quisque eu ultrices urna.</p>
                     </div>
                 </div>
@@ -91,15 +129,17 @@
     <!--Contact-->
     <a name = "contacts"></a>
         <div class = "contacts-page">
-            <div class = "container">
+            <div> 
+                <h1 class = "about-msg text-center">CONTACT</h1>
+            </div>
+            <hr/>
+            <div class = "container-fluid">
                 <div class = "row">
-                    <div class = "col-lg-4 col-sm-6">
-                        <h2> Contact me <br></h2>
+                    <div class = "col-lg-12 col-sm-6 text-center">
                         <ul>
                             <li><button class = "btn btn-default">GitHub</button></li>
                             <li><button class = "btn btn-default">LinkedIn</button></li>
                             <li><button class = "btn btn-default">Twitter</button></li>
-                            <li><button class = "btn btn-default">Facebook</button></li>
                         </ul>
                     </div>
                 </div>

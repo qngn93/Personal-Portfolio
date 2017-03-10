@@ -1,22 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Harmattan');
 
-.nav-pills {
-    font-family: harmattan;
-    font-size: 2.0em;
-    color: black;
+.topnav {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.5em;
     background-color: lightgray;
+}
+    ul{
+        list-style: none;
+    }
+
+.pull-right{
+    padding-left: 50px;
+    padding-right: 10px;
 }
 
 .intro-page {
     font-family: harmattan;
-    background:url("http://i.imgur.com/ULwo0xc.jpg");
-    background-size: cover;
+    /*background:url("http://www.designbolts.com/wp-content/uploads/2013/02/Rough-Grey-Tilable-Pattern-For-Website-Background.jpg") center center;*/
+    background-color: steelblue;
     height: 900px;
 }
 
 .intro-msg {
-    padding-top: 520px;
-    padding-left: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 200;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+    
 }
 
 .me {
@@ -27,20 +48,31 @@
     margin-top: 1%;
 }
 
+.wrapper {
+    margin: 0 auto;
+}
+
 .about-page {
-    font-family: harmattan;
+    font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
+    padding: 70px 70px 70px 70px;
 }
 
 .portfolio-page {
-    font-family: harmattan;
+    font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
-    background-color: lightpink
+    background-color: white;
+    padding: 70px 70px 70px 70px;
+}
+
+.portfolio-pic {
+    border-radius: 25px;
 }
 
 .contacts-page {
-    font-family: harmattan;
+    font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
-    background-color: skyblue;
+    background-color: whitesmoke;
+    padding: 70px 70px 70px 70px;
 }
