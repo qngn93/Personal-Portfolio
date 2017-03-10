@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Harmattan');
+
+.nav-pills {
+    font-family: harmattan;
+    font-size: 2.0em;
+    color: black;
+    background-color: lightgray;
+}
+
+.intro-page {
+    font-family: harmattan;
+    background:url("http://i.imgur.com/ULwo0xc.jpg");
+    background-size: cover;
+    height: 900px;
+}
+
+.intro-msg {
+    padding-top: 520px;
+    padding-left: 200px;
+}
+
+.me {
+    padding-top: px;
+    padding-left: 2em;
+}
+.block {
+    margin-top: 1%;
+}
+
+.about-page {
+    font-family: harmattan;
+    font-size: 1.3em;
+    background-color: blanchedalmond;
+}
+
+.portfolio-page {
+    font-family: harmattan;
+    font-size: 1.3em;
+    background-color: lightpink
+}
+
+.contacts-page {
+    font-family: harmattan;
+    font-size: 1.3em;
+    background-color: skyblue;
+}
