@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Harmattan');
 
-.nav-pills {
+.topnav {
     font-family: harmattan;
-    font-size: 2.0em;
-    color: black;
+    font-size: 1.5em;
     background-color: lightgray;
+}
+    ul{
+        list-style: none;
+    }
+
+.pull-right{
+    padding-left: 50px;
+    padding-right: 10px;
 }
 
 .intro-page {
@@ -31,16 +38,19 @@
     font-family: harmattan;
     font-size: 1.3em;
     background-color: blanchedalmond;
+    padding: 70px 70px 70px 70px;
 }
 
 .portfolio-page {
     font-family: harmattan;
     font-size: 1.3em;
-    background-color: lightpink
+    background-color: lightpink;
+    padding: 70px 70px 70px 70px;
 }
 
 .contacts-page {
     font-family: harmattan;
     font-size: 1.3em;
     background-color: skyblue;
+    padding: 70px 70px 70px 70px;
 }
